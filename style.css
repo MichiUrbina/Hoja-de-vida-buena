@@ -1,0 +1,202 @@
+body{
+    display: grid;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 10px;
+    display: flex;
+
+}
+/* Estilos de mi seccion-1 */
+.seccion-1 {
+    background-color: rgb(22, 12, 64);
+    width: 30%;
+    padding-top: 20px;
+}
+
+.seccion-1 img{
+    height: 29%;
+}
+
+.container-contacto{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.ul-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container-icono{
+    background-color: white;
+    width: 25%;
+    height: 40%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-text{
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace
+}
+
+.container-habilidades{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align:left;
+    color: white;
+    padding: 20px;
+}
+.Titulo-software{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.ul-hobbie{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+.img-hobbie{
+    background-color: white;
+    width: 25%;
+    height: 40%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.titulo-hobbie{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.container-habil{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align:left;
+    color: white;
+    padding: 20px;
+}
+.titulo-habil{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+/* Estilos de mi seccion-2 */
+.seccion-2{
+    background-color: rgb(228, 184, 218);
+    width: 70%;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.container-nombre{
+text-align: center;
+}
+.nombre1{
+    font-family:cursive;
+    font-size: 50px;
+    text-align:center;
+    color: rgb(3, 11, 100);
+}
+.apellido{
+    font-family:cursive;
+    font-size: 70px;
+    text-align:center;  
+}
+.container-profesion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(3, 11, 100);
+}
+.descripcion{
+    font-family:'Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.titulo-formacion{
+    background-color:rgb(3, 11, 100);
+    width: 26%;
+    height: 50%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container-formacion{
+font-family:'Courier New', Courier, monospace; 
+font-size: 20px;
+text-align: justify;
+}
+
+.container-experiencia{
+    background-color:rgb(3, 11, 100);
+    width: 26%;
+    height: 50%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;  
+}
+
+.experiencia{
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 20px;
+    text-align: justify;   
+}
+
+.container-cursos{
+    background-color:rgb(3, 11, 100);
+    width: 26%;
+    height: 50%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;  
+}
+
+.cursos{
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 20px;
+    text-align: justify;   
+}
